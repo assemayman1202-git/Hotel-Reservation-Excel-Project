@@ -63,7 +63,7 @@ The raw data contains one record per hotel reservation and includes the followin
 
 The data is modeled as a classic **Star Schema** in Power Pivot, with one central fact table connected to five dimension tables via surrogate keys.
 
-![Data Model](images/data_model.png)
+![Star Schema Model](Star_Schema%20Model.png)
 
 ```
 Dim_date ──────────────────────────────┐
@@ -152,7 +152,7 @@ All 5 pages share the same **Year** (2017 / 2018) and **Month** (1–12) slicers
 
 ### Page 1 — Cancellations
 
-![Cancellations Dashboard](images/cancellations.png)
+![Cancellations Dashboard](Cancellation.png)
 
 **Purpose:** Understand what drives the 33% cancellation rate and which segments/room types are most at risk.
 
@@ -174,7 +174,7 @@ Guests with 0 special requests cancel at ~41%. Each additional special request r
 
 ### Page 2 — Pricing
 
-![Pricing Dashboard](images/pricing.png)
+![Pricing Dashboard](Pricing.png)
 
 **Purpose:** Analyze how room price varies across room types, booking channels, time of year, and cancellation status.
 
@@ -200,7 +200,7 @@ As the number of children in a booking increases, the average room price rises �
 
 ### Page 3 — Seasonality
 
-![Seasonality Dashboard](images/seasonality.png)
+![Seasonality Dashboard](Seasonality.png)
 
 **Purpose:** Understand how bookings and cancellations vary over time.
 
@@ -223,7 +223,7 @@ The hotel is primarily used for business/midweek stays. Weekend occupancy is sig
 
 ### Page 4 — Customers
 
-![Customers Dashboard](images/customers.png)
+![Customers Dashboard](Customers_page.png)
 
 **Purpose:** Profile guests to understand retention, preferences, and behavior.
 
@@ -246,7 +246,7 @@ Room Type 1 dominates with 28,105 reservations. All other room types (2–7) tot
 
 ### Page 5 — Market Segment
 
-![Market Segment Dashboard](images/segment.png)
+![Market Segment Dashboard](Market_segment.png)
 
 **Purpose:** Compare performance, pricing, and behavior across booking channels.
 
