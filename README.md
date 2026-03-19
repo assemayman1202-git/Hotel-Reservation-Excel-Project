@@ -358,7 +358,7 @@ The star schema built here would migrate directly to Power BI with minimal chang
 
 ## ▶️ How to Use
 
-1. Open `Tourism_Project.xlsx` in Microsoft Excel (2016 or later)
+1. Open `Hotel_Project.xlsx` in Microsoft Excel (2016 or later)
 2. Enable editing and content if prompted
 3. Navigate between dashboard pages using the left sidebar buttons
 4. Use the **Year slicer** (2017 / 2018) and **Month slicer** to filter all visuals simultaneously
@@ -370,7 +370,7 @@ The star schema built here would migrate directly to Power BI with minimal chang
 ## 📁 File Structure
 
 ```
-Tourism_Project.xlsx
+Hotel_Project.xlsx
 ├── Data Tables
 │   ├── Fact_Reservations       # Core transaction data
 │   ├── Dim_date                # Date dimension
